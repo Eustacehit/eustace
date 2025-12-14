@@ -10,14 +10,14 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
+      name: "Sarah Kimani",
       content: "Eustace Edwin delivered an exceptional website that exceeded our expectations. The design is modern, responsive, and perfectly captures our brand identity. Our conversion rates increased by 150% within the first month!",
       rating: 5,
       avatar: "https://images.unsplash.com/photo-1494790108755-2616b15a5b87?w=150&h=150&fit=crop&crop=face"
     },
     {
       id: 2,
-      name: "Michael Chen",
+      name: "Michael Missa",
       role: "Startup Founder",
       content: "The team at Websreal transformed our online presence completely. The e-commerce platform they built is intuitive, fast, and our sales have doubled since launch. Exceptional work and ongoing support!",
       rating: 5,
@@ -25,7 +25,7 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      name: "Amara Williams",
+      name: "Annet Williams",
       role: "Marketing Director",
       content: "Outstanding work on our fashion e-commerce platform. The user experience is seamless, the design is stunning, and the performance is incredible. Our average order value increased by 200%!",
       rating: 5,
@@ -33,7 +33,7 @@ const Testimonials = () => {
     },
     {
       id: 4,
-      name: "James Wilson",
+      name: "James Bare",
       role: "Restaurant Owner",
       content: "The restaurant management system Websreal created for us is a game-changer. Online orders, table reservations, and POS integration work flawlessly. Our efficiency improved by 80%!",
       rating: 5,
@@ -41,7 +41,7 @@ const Testimonials = () => {
     },
     {
       id: 5,
-      name: "Keisha Brown",
+      name: "William Otieno",
       role: "Creative Director",
       content: "Eustace Edwin created a great portfolio website for our agency. The animations are mesmerizing, the performance is excellent, and we've been featured on multiple design platforms!",
       rating: 5,
@@ -49,7 +49,7 @@ const Testimonials = () => {
     },
     {
       id: 6,
-      name: "David Thompson",
+      name: "David Mwangi",
       role: "Real Estate Broker",
       content: "The real estate platform exceeded all expectations. Virtual tours, advanced search, and mobile optimization are perfect. Our property inquiries increased by 400% in just two months!",
       rating: 5,
@@ -57,7 +57,7 @@ const Testimonials = () => {
     },
     {
       id: 11,
-      name: "Priya Patel",
+      name: "Priscilla Debra",
       role: "Business Owner",
       content: "Professional, reliable, and creative! Our corporate website perfectly represents our sustainability mission. The SEO optimization brought us to the first page of Google results!",
       rating: 5,
@@ -65,7 +65,7 @@ const Testimonials = () => {
     },
     {
       id: 12,
-      name: "Tyrone Anderson",
+      name: "Tyrone Alim",
       role: "Startup Founder",
       content: "From concept to launch, Websreal delivered excellence. The web application is fast, secure, and scalable. Their ongoing support has been invaluable for our growing startup!",
       rating: 5,
