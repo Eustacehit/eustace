@@ -1,7 +1,8 @@
 
 import React, { lazy, Suspense, useEffect, useState, useCallback } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ArrowRight, Code, Smartphone, ShoppingCart, Zap, Shield, Rocket, ChevronLeft, ChevronRight, Quote, Users } from 'lucide-react';
+import { ArrowRight, Code, Smartphone, ShoppingCart, Zap, Shield, Rocket, ChevronLeft, ChevronRight, Quote, Users, HelpCircle } from 'lucide-react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
@@ -541,6 +542,80 @@ const Index = () => {
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section id="faq-section" className="py-20 bg-white">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 rounded-full text-blue-600 text-sm font-medium mb-4">
+              <HelpCircle className="w-4 h-4" />
+              Frequently Asked Questions
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+              Got Questions? We Have Answers
+            </h2>
+            <p className="text-lg text-gray-600">
+              Here are some common questions our clients ask before starting a project
+            </p>
+          </div>
+
+          <Accordion type="single" collapsible className="space-y-4">
+            <AccordionItem value="item-1" className="border border-gray-200 rounded-xl px-6 shadow-sm hover:shadow-md transition-shadow">
+              <AccordionTrigger className="text-left font-semibold text-gray-900 hover:no-underline py-5">
+                How much does a professional website cost?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-600 pb-5">
+                <p className="mb-3">A professional business website typically starts at a base rate, depending on complexity and features. Simple portfolio or one-page sites are more affordable, while custom functionality like e-commerce, booking systems, or member areas will affect the price. I always provide clear pricing based on your specific goals before any work begins.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-2" className="border border-gray-200 rounded-xl px-6 shadow-sm hover:shadow-md transition-shadow">
+              <AccordionTrigger className="text-left font-semibold text-gray-900 hover:no-underline py-5">
+                How long does it take to build a website?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-600 pb-5">
+                <p className="mb-3">Most business websites are designed, developed, and launched within 2–4 weeks once all content (text, images, logos) is ready. More advanced platforms or functionality can extend timelines, but I will share a realistic schedule with milestones so you always know what to expect.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-3" className="border border-gray-200 rounded-xl px-6 shadow-sm hover:shadow-md transition-shadow">
+              <AccordionTrigger className="text-left font-semibold text-gray-900 hover:no-underline py-5">
+                What do you need from me to get started?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-600 pb-5">
+                <p className="mb-3">To begin, I need your business details, branding assets (logo, colors), page content, and any examples of styles you like. You do not need to know technical details — I guide you through every step.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-4" className="border border-gray-200 rounded-xl px-6 shadow-sm hover:shadow-md transition-shadow">
+              <AccordionTrigger className="text-left font-semibold text-gray-900 hover:no-underline py-5">
+                Will my website work on mobile devices and search engines?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-600 pb-5">
+                <p className="mb-3">Yes. Every site I build is fully responsive, meaning it adapts perfectly to phones, tablets, and desktops. I also use best practices (proper tags, meta descriptions, and structured content) so your site can be indexed and found on search engines like Google.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-5" className="border border-gray-200 rounded-xl px-6 shadow-sm hover:shadow-md transition-shadow">
+              <AccordionTrigger className="text-left font-semibold text-gray-900 hover:no-underline py-5">
+                What happens after the site is launched?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-600 pb-5">
+                <p className="mb-3">After launch, I provide support to fix bugs, connect your domain, and make sure everything is live and working. I also offer ongoing care plans for updates, maintenance, and content changes if needed.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-6" className="border border-gray-200 rounded-xl px-6 shadow-sm hover:shadow-md transition-shadow">
+              <AccordionTrigger className="text-left font-semibold text-gray-900 hover:no-underline py-5">
+                Can I update my own website after launch?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-600 pb-5">
+                <p className="mb-3">Yes. I build your site so you can make simple edits yourself if you choose. I can also walk you through how to update text, images, or add new pages without needing technical skills.</p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </section>
 
