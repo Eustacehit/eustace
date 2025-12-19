@@ -21,7 +21,7 @@ const Services = () => {
         "User Experience Optimization",
         "Cross-browser Compatibility"
       ],
-      startingPrice: "$150"
+      startingPrice: "$300"
     },
     {
       icon: <Smartphone className="h-12 w-12" />,
@@ -34,7 +34,7 @@ const Services = () => {
         "Component Architecture",
         "State Management"
       ],
-      startingPrice: "$200"
+      startingPrice: "$500"
     },
     {
       icon: <Code className="h-12 w-12" />,
@@ -47,7 +47,7 @@ const Services = () => {
         "Cloud Deployment",
         "Security Implementation"
       ],
-      startingPrice: "$300"
+      startingPrice: "$600"
     },
     {
       icon: <ShoppingCart className="h-12 w-12" />,
@@ -60,7 +60,7 @@ const Services = () => {
         "Admin Dashboard",
         "Analytics & Reporting"
       ],
-      startingPrice: "$700"
+      startingPrice: "$800"
     },
     {
       icon: <Search className="h-12 w-12" />,
@@ -73,7 +73,7 @@ const Services = () => {
         "Performance Optimization",
         "Analytics Setup"
       ],
-      startingPrice: "$100"
+      startingPrice: "$150"
     },
     {
       icon: <Wrench className="h-12 w-12" />,
@@ -93,7 +93,7 @@ const Services = () => {
   const pricingTiers = [
     {
       name: "Personal Portfolio",
-      price: "250",
+      price: "350",
       description: "Perfect for individuals and freelancers",
       features: [
         "Responsive Design",
@@ -106,7 +106,7 @@ const Services = () => {
     },
     {
       name: "Small Business",
-      price: "400",
+      price: "500",
       description: "Ideal for small businesses and startups",
       features: [
         "Custom Design",
@@ -121,7 +121,7 @@ const Services = () => {
     },
     {
       name: "E-commerce Store",
-      price: "700",
+      price: "800",
       description: "Complete online store solution",
       features: [
         "Custom E-commerce Design",

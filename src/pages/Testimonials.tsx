@@ -19,7 +19,7 @@ const Testimonials = () => {
       id: 2,
       name: "Michael Missa",
       role: "Startup Founder",
-      content: "The team at Websreal transformed our online presence completely. The e-commerce platform they built is intuitive, fast, and our sales have doubled since launch. Exceptional work and ongoing support!",
+      content: "The team transformed our online presence completely. The e-commerce platform they built is intuitive, fast, and our sales have doubled since launch. Exceptional work and ongoing support!",
       rating: 5,
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
     },
@@ -35,7 +35,7 @@ const Testimonials = () => {
       id: 4,
       name: "James Bare",
       role: "Restaurant Owner",
-      content: "The restaurant management system Websreal created for us is a game-changer. Online orders, table reservations, and POS integration work flawlessly. Our efficiency improved by 80%!",
+      content: "The restaurant management system Eustace created for us is a game-changer. Online orders, table reservations, and POS integration work flawlessly. Our efficiency improved by 80%!",
       rating: 5,
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
     },
@@ -67,7 +67,7 @@ const Testimonials = () => {
       id: 12,
       name: "Tyrone Alim",
       role: "Startup Founder",
-      content: "From concept to launch, Websreal delivered excellence. The web application is fast, secure, and scalable. Their ongoing support has been invaluable for our growing startup!",
+      content: "From concept to launch, Edwin's team delivered excellence. The web application is fast, secure, and scalable. Their ongoing support has been invaluable for our growing startup!",
       rating: 5,
       avatar: "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?w=150&h=150&fit=crop&crop=face"
     }
@@ -83,7 +83,7 @@ const Testimonials = () => {
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Client Testimonials</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
             Don't just take our word for it. Here's what our satisfied clients have to say 
-            about working with Websreal and the results we've delivered.
+            about working with Eustace Edwin's team and the results we've delivered.
           </p>
         </div>
       </section>
