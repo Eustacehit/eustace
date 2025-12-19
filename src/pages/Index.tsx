@@ -234,12 +234,6 @@ const Index = () => {
                 Led by Eustace Edwin with 3+ years of expertise and a dedicated team of software developers.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in flex-wrap" style={{ animationDelay: '1.2s' }}>
-                <a href="https://wa.me/254759719689" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="group bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-2xl hover:shadow-green-500/30 transition-all duration-500 transform hover:-translate-y-2 hover:scale-105">
-                    💬 Chat on WhatsApp
-                    <ArrowRight className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
-                  </Button>
-                </a>
                 <Link to="/contact">
                   <Button variant="outline" size="lg" className="px-8 py-4 text-lg font-semibold rounded-xl border-2 border-white/50 text-white hover:bg-white hover:text-blue-600 transition-all duration-500 backdrop-blur-sm hover:scale-105">
                     Get Your Website Today
