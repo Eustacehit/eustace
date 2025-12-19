@@ -34,7 +34,7 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-2 rounded-lg">
                 <Code className="h-6 w-6 text-white" />
               </div>
-              <span>Websreal</span>
+              <span>Eustace Edwin</span>
             </div>
             <p className="text-gray-400">
               Professional web development services that transform your business online presence.
